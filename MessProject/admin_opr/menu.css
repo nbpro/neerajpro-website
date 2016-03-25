@@ -1,0 +1,88 @@
+BODY
+{font-family: verdana, tahoma, arial, sans-serif;
+font-size: 10pt;
+margin: 0px;
+margin-left: 3px;
+margin-right: 3px;
+padding: 0px;}
+
+P
+{padding-top: 10px;
+margin: 0px;}
+
+H1
+{font-size: 12pt;
+font-weight: bold;
+padding-top: 15px;
+margin: 0;}
+
+table.navbar
+{font-size: 8pt;
+margin: 0px;
+padding: 0px; 
+border: 0px; 
+font-weight: bold;}
+
+table.menu
+{font-size: 8pt;
+margin: 0px;
+padding: 0px;
+font-weight: bold;}
+
+td.menuNormal
+{padding: 1px;
+color: black;
+vertical-align: top;
+background-color: #CC3300;
+}
+
+td.menuHover
+{padding: 0px;
+color: black;
+vertical-align: top;
+/*remove the following line for drop-down menu with images*/
+background-color: #3300FF;
+font-size:18;
+}
+
+div.menuNormal
+{display: none;
+position: static;}
+
+div.menuHover
+{border: 1px solid lightblue;
+background-color: #33FFCC;
+display: inline;
+position: absolute;}
+
+a
+{
+	font-size:17;
+	color: yellow;
+	text-decoration:none;
+}
+
+a.menuitem:link
+{text-decoration: none;
+color: black;
+background-color: #FF6600;
+display: block;
+font-size:16;
+font-family:arial;}
+
+a.menuitem:visited
+{text-decoration: none;
+color: black;
+display: block;}
+
+a.menuitem:hover
+{text-decoration: none;
+color: black;
+background-color: lightblue;
+display: block;}
+
+a.menuitem:active
+{text-decoration: none;
+color: black;
+background-color: lightblue;
+display: block;}

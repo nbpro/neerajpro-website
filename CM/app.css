@@ -1,0 +1,46 @@
+table {
+	padding: 30px 0 0;
+	width: 100%
+}
+
+table thead {
+	background-color: #999;
+	color: #FFF;
+	text-align: left;
+}
+table thead tr th {
+	padding: 10px 0;
+}
+table tbody > tr > td {
+	padding: 10px 5px;
+	position: relative;
+}
+table tbody > tr:nth-child(2n) {
+	background-color: #F5F5F5;
+}
+table tbody > tr > td > span.thumb {
+	display: none;
+	left: 100%;
+	top: 0;
+	position: absolute;
+	z-index: 9
+}
+table tbody > tr > td:hover > span {
+	display: block;
+}
+table tbody > tr > td:hover > span.vid {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#vidLightBox {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	text-align: center;
+	background-color: black;
+    background-color: rgba(0,0,0,0.8);
+}
