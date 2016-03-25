@@ -1,0 +1,186 @@
+/*** css rules for neerajpro website ****/
+progress, progress[role] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  background-size: auto;
+  height: 60px;
+  width: 100%;
+}
+@font-face {
+  font-family: "Gentium Book Basic";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Gentium Book Basic Bold Italic"),
+   local("GentiumBookBasic-BoldItalic"), 
+   url("http://themes.googleusercontent.com/static/fonts/gentiumbookbasic/v4/632u7TMIoFDWQYUaHFUp5HLdHZVRci2HdkkDqhT5urM.woff") 
+   format("woff");
+}
+@font-face {
+  font-family: '[set]Foundicons';
+  src: url('fonts/[set]_foundicons.eot');
+  src: url('fonts/[set]_foundicons.eot?#iefix') format('embedded-opentype'),
+       url('fonts/[set]_foundicons.woff') format('woff'),
+       url('fonts/[set]_foundicons.ttf') format('truetype'),
+       url('fonts/[set]_foundicons.svg#[set]Foundicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+[class*="foundicon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+ 
+[class*="foundicon-"]:before {
+  font-family: "[set]Foundicons";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+.main_content
+{
+/*    background-color:#F7F7F7;*/
+    margin: 0px 01px 0px 01px;
+    padding-top: 3em;
+    padding-bottom: 1em;
+    padding-left: 1.5em;
+    
+}
+.nav li {
+font-size: 20px;
+line-height: 40px;
+width: 200px;
+text-align: right;
+}
+li a {
+	
+	font-family:"Gentium Book Basic";
+	color:#3498DB;
+}
+.main-name{
+	font-family:"Gentium Book Basic";
+	font-weight:400;
+	font-style: italic;
+	color: #3498DB;
+}
+.blog_links
+{
+	color: #E74C3C;
+	padding-right:5px;
+	
+	font-style: italic;
+	font-weight: bold;
+ 
+
+	
+}
+#blog_name{
+   margin-top: 20px;
+	
+}
+.date{
+	color:#95A5A6;
+	
+}
+.a{ color: #3498DB}
+.a:hover{ color:#E74C3C}
+#projects p{
+	font-family: "Gentium Book Basic";
+	font-weight: normal;
+}
+
+
+.skill-list {
+  list-style: none;
+  margin: 0;
+  padding: 1em;
+}
+
+.skill {
+  margin-bottom: 1em;
+  position: relative;
+}
+.skill h3 {
+  color: #fff;
+  left: 1em;
+  line-height: 0.05;
+  position: absolute;
+  
+}
+.skill ::-webkit-progress-value {
+  -webkit-animation: bar-fill 2s;
+  width: 0px;
+}
+
+.skill-1::-webkit-progress-value {
+  background: #ff9e2c;
+}
+
+.skill-1::-moz-progress-bar {
+  background: #ff9e2c;
+}
+
+.skill-2::-webkit-progress-value {
+  background: #4ecdc4;
+}
+
+.skill-2::-moz-progress-bar {
+  background: #4ecdc4;
+}
+
+.skill-3::-webkit-progress-value {
+  background: #ff6b6b;
+}
+
+.skill-3::-moz-progress-bar {
+  background: #ff6b6b;
+}
+
+@-webkit-keyframes bar-fill {
+  0% {
+    width: 0;
+  }
+}
+@keyframes bar-fill {
+  0% {
+    width: 0;
+  }
+}
+#contact{
+  height:200px;
+}
+#contact .social {
+width: 440px;
+height: 23px;
+float: left;
+padding: 5px;
+margin-bottom: 5px;
+text-align: left;
+font-sytle: helvetica;
+font-size: 15px;
+color: #333;
+}
+#email {
+margin-top: 5px;
+}
+#linkedin{
+  margin-top: 10px;
+}
+#twitter{
+  margin-top: 10px;
+  
+}
+#blog{
+  margin-top: 10px;
+}
+#facebook{
+  margin-top: 10px;
+}
