@@ -20,15 +20,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-      <meta name="description" content="Neerajpro,neeraj goswami,Neeraj goswami ui developer,neeraj goswami Javascript Engineer,neerajpro.in"/>
-	<meta name="description" content="neeraj goswami"/>
+    <meta name="description" content="Neerajpro,neeraj goswami,Neeraj goswami ui developer,neeraj goswami Javascript Engineer,neerajpro.in,Neeraj Kumar, Neeraj Gainsight"/>
+	<meta name="description" content="neeraj goswami, Neeraj Goswami ,Neeraj Goswami Bangalore, Neeraj UI developer"/>
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
       <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
     <title>
     Neerajpro Home  
     </title>
-        
         <link rel="stylesheet" href="css/bootstrap.min.css"/>    
         <link rel="stylesheet" href="css/flat-ui.css"/>
         <link rel="stylesheet" href="css/main.css"/>
@@ -47,7 +46,6 @@
                 		<li><a href="about.html">About </a></li>
                 		<li><a href="projects.html">Projects </a></li>
                 		<li><a  href="contact.html" >Contact Me</a></li>
-                		
                 	</ul>
                 	
                 	
